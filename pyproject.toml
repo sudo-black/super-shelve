@@ -1,0 +1,31 @@
+[project]
+name = "super-shelve"
+version = "0.1"
+authors = [
+  { name="Upmanyu Sharma", email="upmanyu900@gmail.com" }
+]
+maintainers = [
+  { name="Upmanyu Sharma", email="upmanyu900@gmail.com" }
+]
+description = "This is an project to extend the capabilities of the shelve object persistence in python."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "shelve"
+]
+
+
+[project.urls]
+Homepage = "https://github.com/sudo-black/super-shelve"
+Issues = "https://github.com/sudo-black/super-shelve/issues"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
